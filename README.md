@@ -1,17 +1,20 @@
 # Hello-World-em-Assembly
-Para compilar em assembly tem que fazer o seguinte:
+#### Para compilar em assembly tem que fazer o seguinte:
 
-- Instale o nasm
-- Na linha de comando do terminal vá até o diretorio do seu arquivo e faça:
+<p>Instale o nasm<br>
 
-$ nasm -f elf32 nome.asm (para máquinas 32 bits)
-$ nasm -f elf64 nome.asm (para máquinas 64 bits)
+<p>Na linha de comando do terminal vá até o diretorio do seu arquivo e faça:<br>
 
-- Gere o executável .x:
+    nasm -f elf32 nome.asm (para máquinas 32 bits)
+    nasm -f elf64 nome.asm (para máquinas 64 bits) 
+</li>
 
-$ ld nome.o -o nome.x
+<p>Gere o executável .x:<br>
 
-- Por fim para executar:
+    ld nome.o -o nome.x
+</li>
 
-$ ./nome.x
+<p>Por fim para executar:<br>
 
+    ./nome.x
+</li>
